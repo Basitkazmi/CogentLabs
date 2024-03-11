@@ -1,0 +1,95 @@
+@media only screen and (max-width: 480px) {
+  body{
+    background-color: black;
+}
+section{
+    margin: 0px 10px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+.navbar div{
+    width: 33.3%;
+    
+}
+.logos{
+    padding: 3px;
+}
+.logos img{
+    width: 50px;
+    margin-top: 10px;
+}
+.nav-links ul{
+  margin: auto;
+  display: block;
+}
+.nav-links ul li{
+  list-style-type: none;
+ float: left;
+  padding: 3px;
+
+}
+.nav-links ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+.first-sec{
+  text-align: left;
+  padding: 20px;
+}
+.first-sec h1{
+  font-size: 40px;
+}
+.first-sec p{
+  font-size: 14px;
+  padding: 20px 0;
+}
+.first-sec span{
+  background: linear-gradient(to right, #20D4FE 0%, #B722FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.second-sec{
+  margin-top: 40px;
+  display: block;
+
+}
+.nav-button {
+  position: static;
+  padding: 20px;
+  margin-left: 20px;
+  display: none;
+}
+
+.nav-button button{
+  position: static;
+  background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+  padding: 13px 17px;
+  font-size: 1rem;
+  display: block;
+  
+}
+.nav-button button a{
+  text-decoration: none;
+  color: white;
+}
+
+.img-sec{
+  width: 100%;
+}
+.img-sec img{
+  width: 49%;
+}
+.img-sec-center{
+  width: 100%;
+}
+
+
+
+
+
+}
